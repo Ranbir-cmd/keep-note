@@ -14,11 +14,10 @@ import { NoteState } from "../context/DataProvider";
 
 const Archive = ({ note }) => {
   const {
-    notes,
     setNotes,
     archiveNotes,
     setArchiveNotes,
-    deletedNotes,
+
     setDeletedNotes,
   } = NoteState();
 

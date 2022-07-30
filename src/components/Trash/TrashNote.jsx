@@ -9,7 +9,6 @@ import React from "react";
 import {
   RestoreFromTrashOutlined as Restore,
   DeleteForeverOutlined as DeleteForever,
-  DeleteOutlineTwoTone,
 } from "@mui/icons-material";
 import { NoteState } from "../context/DataProvider";
 
@@ -17,8 +16,7 @@ const TrashNote = ({ note }) => {
   const {
     notes,
     setNotes,
-    archiveNotes,
-    setArchiveNotes,
+
     deletedNotes,
     setDeletedNotes,
   } = NoteState();

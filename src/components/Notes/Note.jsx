@@ -9,7 +9,6 @@ import React from "react";
 import {
   ArchiveOutlined as Archive,
   DeleteOutlineOutlined as Delete,
-  DeleteOutlineTwoTone,
 } from "@mui/icons-material";
 import { NoteState } from "../context/DataProvider";
 
@@ -17,9 +16,9 @@ const AllNotes = ({ note }) => {
   const {
     notes,
     setNotes,
-    archiveNotes,
+
     setArchiveNotes,
-    deletedNotes,
+
     setDeletedNotes,
   } = NoteState();
 
